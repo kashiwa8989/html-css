@@ -8,7 +8,24 @@
 	width: auto;
 	background: #EC715F;
 }
+.navlist{
+	display: flex;
+	justify-content: center;
+	
+}
 
+.navlist-item{
+	display: flex;
+	list-style:none;
+	font-size: 16px;
+	color: #FAFAFA;
+	text-align:center;
+    padding:20px 30px;
+}
+.space{
+	display: flex;
+	padding-left: 10%;
+}
 
 .demo1{
   font-size:5em;
