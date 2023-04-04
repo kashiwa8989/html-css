@@ -26,6 +26,24 @@
 	display: flex;
 	padding-left: 10%;
 }
+.main-visual{
+	position: relative;
+}
+.main-visual p{
+	/* position: absolute; */
+	/* display: flex; */
+	
+}
+.large{
+	top: 0;
+    left: 0;
+	font-size: 64px;
+}
+.main-text{
+	/* padding-top: 200px; */
+	display: flex;
+	position: absolute;
+}
 
 .demo1{
   font-size:5em;
