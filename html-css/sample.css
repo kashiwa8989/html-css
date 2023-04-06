@@ -53,7 +53,41 @@
 	color: #FAFAFA;
 
 }
+.Portfolio{
+	background: #ECEFF1;
+	height: 841px;
+	width: auto;
+	display: flex;
+	justify-content: center;
+}
+.p-word{
+	font-size: 32px;
+	color: #000000;
+	padding-top: 90px;
+	position: relative;
+    display: inline-block;
 
+}
+.p-word:before {
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: -15px;/*線の上下位置*/
+	display: inline-block;
+	width: 70px;/*線の長さ*/
+	height: 3px;/*線の太さ*/
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);/*位置調整*/
+	background-color: #EC715F;/*線の色*/
+	border-radius: 2px;/*線の丸み*/
+  }
+.border{
+	height: 3px;
+	width: 70px;
+	color: #EC715F;
+	padding-top: 8px;
+	
+}
 .demo1{
   font-size:5em;
 	text-align:center;
