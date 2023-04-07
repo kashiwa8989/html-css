@@ -57,7 +57,7 @@
 	background: #ECEFF1;
 	height: 841px;
 	width: auto;
-	display: flex;
+	/* display: flex; */
 	justify-content: center;
 }
 .p-word{
@@ -65,8 +65,7 @@
 	color: #000000;
 	padding-top: 90px;
 	position: relative;
-    display: inline-block;
-
+	text-align: center;
 }
 .p-word:before {
 	content: '';
@@ -80,14 +79,21 @@
 	transform: translateX(-50%);/*位置調整*/
 	background-color: #EC715F;/*線の色*/
 	border-radius: 2px;/*線の丸み*/
-  }
-.border{
-	height: 3px;
-	width: 70px;
-	color: #EC715F;
-	padding-top: 8px;
 	
 }
+.p-space{
+	padding-top: 30px;
+	
+
+}
+p{
+	text-align: center;
+}
+.p-img{
+	display: flex;
+	padding-top: 30px;
+}
+
 .demo1{
   font-size:5em;
 	text-align:center;
