@@ -116,6 +116,24 @@ p{
 .font-low{
 	width: 320px;
 	height: auto;
+	padding-right: 10px;
+	padding-bottom: 90px;
+}
+.font-low i{
+	justify-content: center;
+}
+.font-low p{
+	display: inline-block;
+    text-align: left;
+	font-size: 16px;
+	color: #000000;
+}
+.title{
+	font-size: 20px;
+	color: #000000;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
 }
 .demo1{
   font-size:5em;
