@@ -66,7 +66,7 @@
 	padding-top: 90px;
 	position: relative;
 	text-align: center;
-}；
+}
 .p-word:before {
 	content: '';
 	position: absolute;
@@ -112,6 +112,10 @@ p{
 .font{
 	display: flex;
 	justify-content: center;
+}
+.font-low{
+	width: 320px;
+	height: auto;
 }
 .demo1{
   font-size:5em;
