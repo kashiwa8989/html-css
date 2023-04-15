@@ -135,6 +135,27 @@ p{
 	padding-bottom: 10px;
 	text-align: center;
 }
+.Profile{
+	/* justify-content: center; */
+	/* width: 1024px; */
+	
+	/* position: relative; */
+
+
+}
+.p-low{
+	/* position: absolute; */
+	/* margin: auto; */
+	margin-left: 15%;
+
+	width: 1024px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+.p-low p{
+	text-align: left;
+}
 .demo1{
   font-size:5em;
 	text-align:center;
