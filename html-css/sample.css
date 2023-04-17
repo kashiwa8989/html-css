@@ -152,6 +152,7 @@ p{
 	display: flex;
 	text-align: center;
 	justify-content: center;
+	padding-bottom: 90px;
 }
 .p-low p{
 	text-align: left;
