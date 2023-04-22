@@ -157,6 +157,15 @@ p{
 .p-low p{
 	text-align: left;
 }
+.p-low img{
+	border-radius: 15rem;
+	/* padding-left: 50px; */
+}
+.p-low-talk{
+	padding-left: 30%;
+	/* justify-content: center; */
+	
+}
 .demo1{
   font-size:5em;
 	text-align:center;
